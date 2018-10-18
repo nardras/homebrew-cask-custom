@@ -11,7 +11,7 @@ cask 'minikube-0.28.2' do
   depends_on formula: 'kubernetes-cli'
   container type: :naked
 
-  binary 'minikube-darwin-amd64', target: 'minikube-0.28.2'
+  binary 'minikube-darwin-amd64', target: 'minikube'
 
-  zap trash: '~/.minikube-0.28.2'
+  zap trash: '~/.minikube'
 end
